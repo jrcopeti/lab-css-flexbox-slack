@@ -8,3 +8,67 @@ paragraph yellow: #ECB12F
 links blue: #2E71A6
 footer links grey: #454245
 */
+
+:root {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #540b51;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.6rem 2rem;
+}
+
+.logo {
+  width: 100px;
+  height: auto;
+}
+
+.navbar-buttons {
+  display: flex;
+  gap: 1rem;
+}
+
+.search-button,
+.menu-button {
+  background-color: #540b51;
+  color: #f3eae2;
+  border: none;
+  cursor: pointer;
+}
+
+.navbar-list {
+  display: none;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.6rem 2rem;
+}
+
+header h1 {
+  color: #f3eae2;
+  font-size: 2.4rem;
+  text-align: center;
+}
+
+header p {
+  color: #f3eae2;
+  font-size: 1rem;
+  text-align: center;
+}
+
+header span {
+  color: #ecb12f;
+}
